@@ -62,7 +62,7 @@ Environment: So far, the workflow relies primarily on widely used scientific Pyt
 Below is a detailed description of the code repository. 
 The workflow is mainly organized into two directories: `./preprocess` and `./analysis`. It is recommended to create a separate `./plotting` directory to store plotting notebooks/scripts for figure-generation.
 The `S1_`, `S2_`, etc. prefixes in the script names indicate the recommended execution order. Scripts sharing the same stage number do not depend on one another and can be run independently or in parallel.
-A seperate `./upstream` folder contains original code shared by Dr. Battalio.
+A seperate `./upstream` folder contains original code shared by Dr. Battalio (not included in the public version of this repository).
 
 > [!Note] Note
 > 1. All references to `MACDA` in this repository correspond to MACDA v2. 
